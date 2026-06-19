@@ -1,0 +1,31 @@
+ul{
+  list-style:none;
+  padding:0;
+}
+
+ul li{
+  margin:10px 0;
+  color:#ccc;
+}
+
+/* spacing for button */
+.btn-item{
+  margin-top:20px;
+  text-align:center;
+}
+
+/* button style */
+.join-btn{
+  display:inline-block;
+  padding:12px 25px;
+  background:linear-gradient(90deg,#ff2a00,#ff6a00);
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.join-btn:hover{
+  transform:scale(1.05);
+}
